@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/signup.css" />
+    <!--<link rel="shortcut icon" href="favicon.ico" type="images/x-icon"> suppose favicon-->
+    <title>Signup for BookPlug</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <img src="images/logo.png" alt="Logo" />
+        <nav>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#Newly-added">Newly added</a></li>
+          <li><a href="index.html#Top-Authors">Top Authors</a></li>
+        </nav>
+      </header>
+      <main>
+        <form action="" method="post">
+          <!--Firstname-->
+          <label for="Firstname">Firstname:</label>
+          <input type="text" id="firstname" placeholder="firstname" /><br>
+
+          <!--Lastname-->
+          <label for="Lastname">Lastname:</label>
+          <input type="text" id="Lastname" placeholder="Lastname" /><br>
+
+          <!--Date of birth-->
+          <label for="date-of-birth">Date of birth:</label>
+          <input type="date" name="dob" id="date-of-birth" /><br>
+
+          <!--Email address-->
+          <label for="Email">Email:</label>
+          <input type="email" id="Email" placeholder="example@gmail.com" /><br>
+
+          <!--Gender-->
+          <p>Select your Gender:</p>
+          <label for="Gender">Male</label>
+          <input type="radio" id="Male" name="Gender" value="Male" />
+
+          <label for="Gender">Female</label>
+          <input type="radio" id="Female" name="Gender" value="Female" /><br>
+          <!--Genre of books-->
+          <form action="" method="post" id="Genre">
+            <p>Please choose at least 3 Genre</p>
+            <input type="checkbox" name="horror" id="horror" value="horror" />
+            <label for="horror">Horror</label>
+            <input
+              type="checkbox"
+              name="romance"
+              id="romance"
+              value="romance"
+            />
+            <label for="romance">Romance</label>
+            <input type="checkbox" name="sci-fi" id="sci-fi" value="sci-fi" />
+            <label for="sci-fi">Sci-fi</label>
+            <input
+              type="checkbox"
+              name="fiction"
+              id="fiction"
+              value="fiction"
+            />
+            <label for="fiction">Fiction</label>
+            <input
+              type="checkbox"
+              name="history"
+              id="history"
+              value="history"
+            />
+            <label for="history">History</label>
+            <input
+              type="checkbox"
+              name="fantasy"
+              id="fantasy"
+              value="fantasy"
+            />
+            <label for="fantasy">Fantasy</label>
+            <input
+              type="checkbox"
+              name="self-help"
+              id="self-help"
+              value="self-help"
+            />
+            <label for="self-help">Self-help</label>
+            <input
+              type="checkbox"
+              name="non-fiction"
+              id="non-fiction"
+              value="non-fiction"
+            />
+            <label for="non-fiction">non-fiction</label>
+            <input type="button" value="Save" /><br>
+          </form>
+
+          <!--Username-->
+          <p>create Your username🙂</p>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Explore🙂"
+          /><br>
+
+          <!--Password-->
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" /><br>
+
+          <!--Confirm password-->
+          <label for="confirm-password">Confirm password:</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+          /><br>
+
+          <!--submit button-->
+          <input type="button" value="Submit" />
+        </form>
+        <p>Already have an account?<a href="login.html">Login here</a></p>
+      </main>
+      <footer>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+          adipisci dicta debitis nesciunt! Cumque dignissimos ipsa reiciendis
+          placeat tempora alias nostrum illo inventore ipsam maxime. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Sit saepe aspernatur
+          ullam sequi, vel, id assumenda distinctio ipsam unde optio fuga!
+          Perferendis, dolorum sunt. Ipsam.
+        </p>
+        <p class="center-text" style="text-align: center">
+          Property of BookPlug.inc
+        </p>
+      </footer>
+      <script src="js files/script.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+:root{
+    --font: font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    --font2: font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    font-family: var(--font);
+}
+
+/* This is for the header and the nav-bar currently unfinished looking later */
+header{
+    background-color: rgba(78, 139, 193, 0.575);
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+header img{
+    width: 62px;
+    text-align: left;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header nav li{
+    padding: 10px 3px;
+    display: inline-block;
+    list-style: none;
+}
+header nav li a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+}
+/*body*/
+body{
+    background-image: url(/images/Background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-size: cover;
+    background-attachment: fixed;
+}
