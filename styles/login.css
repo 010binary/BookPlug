@@ -1,0 +1,41 @@
+:root{
+    --font: font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    --font2: font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+    --color-main: color: #D5D8F3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    font-family: var(--font);
+}
+
+/* This is for the header and the nav-bar currently unfinished looking later */
+header{
+    background-color: #D5D8F3;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+header img{
+    width: 70px;
+    text-align: left;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header nav li{
+    padding: 5px 3px;
+    display: inline-block;
+    list-style: none;
+}
+header nav li a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+}
