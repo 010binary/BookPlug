@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     color: black;
-    font-size: 18px;
+    
     font-family: var(--font);
 }
 
@@ -22,6 +22,7 @@ header{
     padding: 8px 10px;
     font-weight: 800;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 header img{
     width: 70px;
@@ -39,3 +40,59 @@ header nav li a {
     padding-left: 5px;
     color: black;
 }
+
+/* main part of the body  */
+
+body{
+    background-image: url(/images/Background-4.jpg);
+    background-color: rgba(55, 52, 52, 0.896);
+    background-blend-mode: multiply;
+}
+main{
+    margin: auto;
+    width: 60%;
+    height: 380px;
+    padding: 10px;
+    background-color: #d5d8f3e6;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #D5D8F3;
+    margin-top: 2rem;
+    padding: 0.5rem 0.3rem;
+    position: fixed;
+    bottom: 0;
+    text-align: justify;
+}
+input[type=text],[type=password]{
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#button {
+    transition-duration: 0.4s;
+    width: 50%;
+    align-items: center;
+    background-color: #000;
+    color: aliceblue;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+
+    /*to center the button*/
+    position: relative;
+    right: -25%;
+    
+}
+#button:hover {
+    background-color: #fff; 
+    color: #000;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
