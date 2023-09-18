@@ -49,7 +49,34 @@ body{
     background-color: #3e3d3d;
     background-blend-mode: multiply;
 }
-.intro-text{
+
+.intro{
+  text-align: center;
+  margin: 20px;
+}
+h1 {
+    font-size: 1.4rem;
     margin-bottom: 10px;
-    color: red;
+}
+.trending-books {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+}
+.books{
+    box-shadow: 0 0 3px rgb(206, 179, 179);
+}
+.imgs{
+    width: 100%;
+    display: block;
+}
+.books p {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: #D5D8F3;
+    color: #000;
+    margin-bottom: 0px;
 }
